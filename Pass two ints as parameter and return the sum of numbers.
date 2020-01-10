@@ -1,0 +1,5 @@
+/*Pass two ints as parameter and return the sum of numbers.*/
+public  long sum(int a,int b){
+long sum=(long)a+b;
+return sum;
+}
