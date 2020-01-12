@@ -1,0 +1,12 @@
+/*Pass an int array and an int and do a search of the second parameter in the first, and return true/false.*/
+public boolean searchElement(int[] a, int numberToSearch){
+boolean res=false;
+for(int i=0;i<a.length;i++)
+{
+if(a[i]==numberToSearch)
+res=true;
+
+}
+return res;
+}
+	
