@@ -1,0 +1,21 @@
+/* Pass a string as parameter. Find out how many vowels present in it */
+public int countVowels(String s){
+int count=0;
+			String sl=s.toLowerCase();
+			
+			System.out.println(sl);
+			
+			if(sl=="")
+				System.out.println("invalid input");
+			
+			else
+			for(int i=0;i<sl.length();i++)
+			{
+				int ch=sl.charAt(i);
+				if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+					count++;
+			}
+		System.out.println(count);	
+		return count;
+}
+		
