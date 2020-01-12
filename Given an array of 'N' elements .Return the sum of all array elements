@@ -1,0 +1,9 @@
+/* Given an array of 'N' elements .Return the sum of all array element */
+public long arraySum(int[] a){
+long sum=0;
+for(int i=0;i<a.length;i++)
+{
+sum=sum+a[i];
+}
+return sum;
+}
