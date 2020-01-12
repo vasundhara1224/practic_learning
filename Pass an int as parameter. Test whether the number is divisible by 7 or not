@@ -1,0 +1,7 @@
+/* Pass an int as parameter. Test whether the number is divisible by 7 or not */
+public boolean isDivisibleBy7(int num){
+if(num%7==0)
+return true;
+else 
+return false;
+}
